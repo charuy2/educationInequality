@@ -1,0 +1,238 @@
+{ /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color: #cfe8ed; 
+}
+
+/* STYLE TEXT */
+
+h1 {
+  color: #303179;
+}
+
+header {
+  color: white;
+  background-color:  #303179;
+  padding: 0.5em;
+  font-size: 1.8em;
+  font-family: Ariel;
+  font-weight: bold;
+  text-align: center;
+  
+}
+/* STYLE IMAGES */
+
+/* STYLE NAV BAR */
+ul {
+  list-style-type: none;
+  background-color: #303179;
+  overflow: hidden;
+  padding: 1em;
+  text-align: center;
+  
+
+}
+li {
+  display: inline;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.9em;
+  padding: 2em;
+  
+  
+  
+
+
+}
+
+
+li a:hover {
+  background-color: #A8CEEE;
+  text-align: center;
+  
+}
+
+nav {
+  
+}
+/* STYLE BUTTONS */
+
+/* ADD MORE! */
+h3 {
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+  padding-left: 1.1em;
+  padding-right: 1.1em;
+  
+}
+
+body.yo {
+  text-align: center;
+  padding: 2em;
+}
+p2 {
+  padding: 2em;
+}
+
+img {
+  max-width: 300px;
+  max-height: 300px;
+  border-radius: 5%; 
+  border: 5px solid white
+
+}
+
+h2 {
+  border-radius: 47%;
+  text-align: center;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+  background-color: #A8CEEE
+}
+
+div.p3 {
+ padding-top: 0.5em;
+}
+
+div.Yo {
+  text-align: center;
+  padding: 2em;
+}
+
+div.Hi {
+  padding-left: 7em;
+  padding-right: 7em;
+}
+div.Yes {
+  text-align: center;
+  padding-left: 7em;
+  padding-right: 7em;
+}
+
+div.Main {
+  padding-left: 7em;
+  padding-right: 7em;
+}
+
+h5 {
+  font-size: 1.5em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  border-radius: 47%;
+  background-color: #A8CEEE 
+
+}
+
+h4 {
+  font-size: 1.5em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  border-radius: 47%;
+  background-color: #A8CEEE 
+}
+
+#overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: pink;
+  z-index: 2;
+  cursor: pointer;
+  text-align: center;
+  
+}
+
+h6 {
+  text-align: center;
+  font-size: 1.1em;
+  padding-left: 1.1em;
+  padding-right: 1.1em;
+  padding-top: 1.5em;
+  padding-bottom: 1em;
+}
+#myBtn {
+  padding: 0.6em;
+  text-align: center;
+  font-size: 1.1em;
+  font-family: Ariel;
+  border-radius: 20%;
+  background-color:#A8CEEE 
+
+}
+
+div.page2nav {
+  padding-bottom: 1.5em;
+}
+
+div.p4 {
+  padding-bottom: 1.7em;
+  padding-top: 0.7em;
+}
+
+div.p5 {
+  padding-top:0.7em;
+  padding-bottom: 1.7em
+}
+
+div.facts {
+  font-family: Ariel;
+  font-size: 1.07em;
+  padding-top:1.5em;
+  padding-bottom: 1em;
+  margin-left: 2em;
+  margin-right: 2em;
+  
+}
+
+p7 {
+  padding-bottom: 1em;
+}
+
+h6.pad {
+   padding-top: 0.5em;
+  padding-bottom: 0.5em;
+   font-size: 1.5em;
+   font-weight: bold;
+  border-radius: 47%;
+  background-color: #A8CEEE
+  
+}
+div.vist {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+div.helpout {
+  padding-left: 7em;
+  padding-right: 7em;
+  padding-bottom: 2em;
+}
+
+div.last {
+  padding-left: 7em;
+  padding-right: 7em;
+  padding-bottom: 2em;
+  
+}
+
+#first {
+
+  margin-left: 50%;
+  
+}
+
+.flexContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
